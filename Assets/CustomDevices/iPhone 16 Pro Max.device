@@ -1,0 +1,30 @@
+{
+  "friendlyName": "iPhone 16 Pro Max",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1320,
+      "height": 2868,
+      "dpi": 460.0,
+      "orientations": [
+        {
+          "orientation": 1, 
+          "safeArea": {
+            "x": 0,
+            "y": 134,
+            "width": 1320,
+            "height": 2734
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone16ProMax.png",
+        "borderSize": { "x": 0, "y": 0, "z": 0, "w": 0 }
+      }
+    }
+  ],
+  "systemInfo": {
+    "operatingSystem": "iOS"
+  }
+}
