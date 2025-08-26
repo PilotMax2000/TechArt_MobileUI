@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.midniteoilsoftware.core": {
+      "version": "https://github.com/Midnite-Oil-Software-L-L-C/unity_packages.git?path=/Core",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      },
+      "hash": "cc87ac59c4c170d04df1caaf1aabdc35fd75e0d7"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,
