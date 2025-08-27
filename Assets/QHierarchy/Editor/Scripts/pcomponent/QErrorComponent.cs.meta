@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d4efcdb4112365b44ab49909e160565a
+timeCreated: 1474964198
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 28577
+  packageName: QHierarchy
+  packageVersion: 4.3
+  assetPath: Assets/QHierarchy/Editor/Scripts/pcomponent/QErrorComponent.cs
+  uploadId: 282712

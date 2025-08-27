@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 211f9e8f16a5ff644946a29c81bedf42
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 28577
+  packageName: QHierarchy
+  packageVersion: 4.3
+  assetPath: Assets/QHierarchy/Scripts/QHierarchyRuntime.asmdef
+  uploadId: 282712

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7b244e6664a14574aa2e6641e341e305
+timeCreated: 1474890066
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 28577
+  packageName: QHierarchy
+  packageVersion: 4.3
+  assetPath: Assets/QHierarchy/Editor/Scripts/pcomponent/QTreeMapComponent.cs
+  uploadId: 282712
