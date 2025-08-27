@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3425b17243bd5c64393e28f9bd687fcb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 28577
+  packageName: QHierarchy
+  packageVersion: 4.3
+  assetPath: Assets/QHierarchy/Editor/Scripts/pdata/QSettingsObjectAsset.asset
+  uploadId: 282712

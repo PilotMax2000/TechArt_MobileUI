@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 620cabcf0b368b54e82f999917adaa5e
+timeCreated: 1474890066
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 28577
+  packageName: QHierarchy
+  packageVersion: 4.3
+  assetPath: Assets/QHierarchy/Editor/Scripts/pcomponent/pbase/QBaseComponent.cs
+  uploadId: 282712

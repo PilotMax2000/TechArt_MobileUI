@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b9eba1ecab4c43c41869985e270bbe09
+timeCreated: 1478592157
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 28577
+  packageName: QHierarchy
+  packageVersion: 4.3
+  assetPath: Assets/QHierarchy/Editor/Scripts/pdata/QSettingsObject.cs
+  uploadId: 282712
