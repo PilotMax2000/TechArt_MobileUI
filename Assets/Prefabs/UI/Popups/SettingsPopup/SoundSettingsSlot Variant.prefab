@@ -102,11 +102,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2757690219111600401, guid: 181230cddb5c23d45aae330d370d5a2c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4462135066075416031, guid: 181230cddb5c23d45aae330d370d5a2c, type: 3}
       propertyPath: m_Name
-      value: MusicSettingsSlot Variant
+      value: SoundSettingsSlot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961848242145490404, guid: 181230cddb5c23d45aae330d370d5a2c, type: 3}
+      propertyPath: _isOnWhenStart
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7167460324857668378, guid: 181230cddb5c23d45aae330d370d5a2c, type: 3}
       propertyPath: m_Sprite
