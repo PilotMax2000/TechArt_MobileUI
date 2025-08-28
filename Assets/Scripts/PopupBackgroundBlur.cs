@@ -52,8 +52,11 @@ public class PopupBackgroundBlur : MonoBehaviour
         }
     }
 
-    private void OnDisable()
+    public void ReleaseRenderTexture()
     {
         if (rt != null) rt.Release();
     }
+
+    private void OnDisable() => 
+        ReleaseRenderTexture();
 }

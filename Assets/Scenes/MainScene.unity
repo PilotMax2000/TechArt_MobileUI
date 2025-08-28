@@ -637,8 +637,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -74, y: -47.900024}
-  m_SizeDelta: {x: 50.6, y: 56.2}
+  m_AnchoredPosition: {x: -73, y: -27}
+  m_SizeDelta: {x: 79.6, y: 84.58}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &262339677
 MonoBehaviour:
@@ -3383,17 +3383,44 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d9c3a4cf1b4fe3409b1ab33a5f59515, type: 3}
+--- !u!1 &1745790658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 789483746245268635, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
+  m_PrefabInstance: {fileID: 3542534157629950202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1745790662 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 586069794417727288, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
   m_PrefabInstance: {fileID: 3542534157629950202}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1745790658}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1745790663
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745790658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9cdf166e5eeb9194f8a60f5d1204cfb7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1749009092
 GameObject:
   m_ObjectHideFlags: 0
@@ -4604,6 +4631,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1749009093}
     m_Modifications:
+    - target: {fileID: 586069794417727288, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
+      propertyPath: m_Transition
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 789483746245268635, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
       propertyPath: m_Name
       value: BlueRoundCloseButton
@@ -4699,7 +4730,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 789483746245268635, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1745790663}
   m_SourcePrefab: {fileID: 100100000, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
 --- !u!1001 &4125673108880915224
 PrefabInstance:
