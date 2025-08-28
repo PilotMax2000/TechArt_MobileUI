@@ -3038,9 +3038,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1329635298207919054, guid: 25531632dbf538a4aada8b28c26326d5, type: 3}
   m_PrefabInstance: {fileID: 9009783}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1560231180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1604152991599347042, guid: b84040885396bcf41bae51cdcd17de7a, type: 3}
+  m_PrefabInstance: {fileID: 4125673108880915224}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1560231181 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4536469525867501698, guid: b84040885396bcf41bae51cdcd17de7a, type: 3}
+  m_PrefabInstance: {fileID: 4125673108880915224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1560231182 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1242780060272261489, guid: b84040885396bcf41bae51cdcd17de7a, type: 3}
   m_PrefabInstance: {fileID: 4125673108880915224}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1564186970
@@ -3373,6 +3383,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d9c3a4cf1b4fe3409b1ab33a5f59515, type: 3}
+--- !u!114 &1745790662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 586069794417727288, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
+  m_PrefabInstance: {fileID: 3542534157629950202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1749009092
 GameObject:
   m_ObjectHideFlags: 0
@@ -4142,6 +4163,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f007b14d80f94947b15ac8985dab0d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _popupBackgroundBlur: {fileID: 1496932211}
+  _settingsPopupOpenButton: {fileID: 1745790662}
+  _settingsPopupCloseButton: {fileID: 262339677}
+  _settingsPopup: {fileID: 1560231180}
+  _setttionsPopupAnimator: {fileID: 1560231182}
+  _settingsPopupCloseTrigger: Hide
 --- !u!4 &2085480456
 Transform:
   m_ObjectHideFlags: 0
@@ -4577,6 +4604,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1749009093}
     m_Modifications:
+    - target: {fileID: 789483746245268635, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
+      propertyPath: m_Name
+      value: BlueRoundCloseButton
+      objectReference: {fileID: 0}
     - target: {fileID: 1030263491059578491, guid: 48d71f8a3d08c674bb4964de42e408d7, type: 3}
       propertyPath: m_Name
       value: SettingsButton
