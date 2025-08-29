@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0933bc857151cc2419fd09edc7ee2cff
+guid: 25df069711d3f8141a95f849dcfc1dc4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8068416662729135922
-    second: text_pill_frame_0
+      213: -7469325514853739673
+    second: star_particle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -53,7 +53,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: text_pill_frame_0
+      name: star_particle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 558
-        height: 175
+        width: 115
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23710d9d436c8ff60800000000000000
-      internalID: 8068416662729135922
+      spriteID: 7639167b400a75890800000000000000
+      internalID: -7469325514853739673
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      text_pill_frame_0: 8068416662729135922
+      star_particle_0: -7469325514853739673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

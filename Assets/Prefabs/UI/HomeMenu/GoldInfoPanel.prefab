@@ -102,12 +102,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4994524711214812363, guid: 13f1636424c2a77458e107d66f9ffdb6, type: 3}
       propertyPath: m_Name
-      value: GoldInfoPanel_Base Variant
+      value: GoldInfoPanel
       objectReference: {fileID: 0}
     - target: {fileID: 5161503405595544175, guid: 13f1636424c2a77458e107d66f9ffdb6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4589764541132860600, guid: fa6ef4a4ea3c1934fbe0164e1e4b11ca, type: 3}
+      objectReference: {fileID: 21300000, guid: fa6ef4a4ea3c1934fbe0164e1e4b11ca, type: 3}
     - target: {fileID: 8586003819616001215, guid: 13f1636424c2a77458e107d66f9ffdb6, type: 3}
       propertyPath: m_SizeDelta.x
       value: 114.59
