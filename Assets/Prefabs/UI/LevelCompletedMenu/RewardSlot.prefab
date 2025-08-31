@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8114743926106893432}
+  - component: {fileID: 2249912175592374484}
   m_Layer: 5
   m_Name: RewardSlot
   m_TagString: Untagged
@@ -37,6 +38,18 @@ RectTransform:
   m_AnchoredPosition: {x: -95.950005, y: 0.000030517578}
   m_SizeDelta: {x: 191.9, y: 218.2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &2249912175592374484
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283540076345901198}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &5382564789367434293
 GameObject:
   m_ObjectHideFlags: 0
