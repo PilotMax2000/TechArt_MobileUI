@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c0c7a508efb8fbc4884178e6f420ff31
+guid: 4ddd4a1f94848284b81fa9c99aa9d658
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2023322462612351333
-    second: HomeScreen_Example_0
+      213: -7108236489621726902
+    second: SettingsPopup_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HomeScreen_Example_0
+      name: SettingsPopup_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 569e31a4f09441c10800000000000000
-      internalID: 2023322462612351333
+      spriteID: a4990a0e2987a5d90800000000000000
+      internalID: -7108236489621726902
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HomeScreen_Example_0: 2023322462612351333
+      SettingsPopup_2_0: -7108236489621726902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
