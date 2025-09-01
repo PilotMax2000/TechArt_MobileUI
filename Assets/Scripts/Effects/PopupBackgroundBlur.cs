@@ -33,6 +33,11 @@ public class PopupBackgroundBlur : MonoBehaviour
         blurImage.uvRect = new Rect(0, 0, 1, 1);
     }
 
+    public void ReleaseRenderTexture()
+    {
+        if (rt != null) rt.Release();
+    }
+
     private void CorrectAspect(RawImage img, int texWidth, int texHeight)
     {
         float texAspect = (float)texWidth / texHeight;
@@ -50,11 +55,6 @@ public class PopupBackgroundBlur : MonoBehaviour
             float scale = texAspect / screenAspect;
             img.uvRect = new Rect((1f - scale) / 2f, 0f, scale, 1f);
         }
-    }
-
-    public void ReleaseRenderTexture()
-    {
-        if (rt != null) rt.Release();
     }
 
     private void OnDisable() => 

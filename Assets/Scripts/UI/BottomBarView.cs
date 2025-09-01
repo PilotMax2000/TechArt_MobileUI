@@ -37,20 +37,6 @@ namespace TechArtProject
 
         private void OnIconToggledOn(int iconSlotIndex)
         {
-            // if (_lastToggledIndex == -1)
-            // {
-            //     if (IsIconSlotIndexNotInRange(iconSlotIndex)) 
-            //         return;
-            //     _barSlots[iconSlotIndex].ToggleOn();
-            // }
-            // else
-            // {
-            //     if (IsIconSlotIndexNotInRange(iconSlotIndex)) 
-            //         return;
-            //     _togglingInProcess = true;
-            //     _lastToggledIndex = iconSlotIndex;
-            //     _barSlots[iconSlotIndex].ToggleOn();
-            // }
             if (_lastToggledIndex == -1)
             {
                 _lastToggledIndex = iconSlotIndex;
@@ -64,7 +50,6 @@ namespace TechArtProject
                 _lastToggledIndex = iconSlotIndex;
                 _togglingInProcess = false;
             }
-            
             
             ContentActivated?.Invoke(_lastToggledIndex);
             Debug.Log($"BottomBarView: Icon index {_lastToggledIndex} toggled on");

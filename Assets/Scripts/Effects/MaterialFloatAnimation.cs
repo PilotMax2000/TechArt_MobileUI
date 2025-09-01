@@ -5,8 +5,8 @@ namespace TechArtProject
 {
     public class MaterialFloatAnimation : MonoBehaviour
     {
-        [Header("Target & Shader Property")] [SerializeField]
-        private Graphic target; // auto-filled if null
+        [Header("Target & Shader Property")] 
+        [SerializeField] private Graphic target; // auto-filled if null
 
         [SerializeField] private string floatName = "_Progress"; // shader float to drive
 
@@ -14,8 +14,7 @@ namespace TechArtProject
         public float floatValue = 0f; // keyframe this
 
         [Header("Optional")]
-        [Tooltip(
-            "If set, this material will be cloned at runtime. If null, the Graphic's current material is used as the base.")]
+        [Tooltip("If set, this material will be cloned at runtime. If null, the Graphic's current material is used as the base.")]
         [SerializeField]
         private Material baseMaterialOverride;
 
